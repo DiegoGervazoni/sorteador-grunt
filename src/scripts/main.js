@@ -11,5 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       document.getElementById("numero-sorteado").innerText =
        numeroAleatorio;
+
+       document.querySelector('.resultado').style.display = 'block';
     });
 });
